@@ -1,16 +1,21 @@
 {
-	"extends": "@tsconfig/node20/tsconfig.json",
 	"compilerOptions": {
 		"customConditions": [
 			"node"
 		],
-		"module": "ES2022",
+		"lib": [
+			"es2022"
+		],
+		"module": "es2022",
+		"target": "es2022",
+		"esModuleInterop": true,
 		"moduleResolution": "Bundler"
 	},
 	"include": [
 		"src/**/*.ts"
 	],
 	"exclude": [
-		"node_modules"
+		"node_modules",
+		"src/pi"
 	]
 }

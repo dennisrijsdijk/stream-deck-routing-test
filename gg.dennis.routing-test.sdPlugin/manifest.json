@@ -7,6 +7,8 @@
 			"Name": "Counter",
 			"UUID": "gg.dennis.routing-test.increment",
 			"Icon": "imgs/actions/counter/icon",
+			"PropertyInspectorPath": "pi.html",
+			"UserTitleEnabled": false,
 			"Tooltip": "Displays a count, which increments by one on press.",
 			"Controllers": [
 				"Keypad"
